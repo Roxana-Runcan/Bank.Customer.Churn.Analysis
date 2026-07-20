@@ -87,24 +87,21 @@ Churn is highest in Germany, where customer acquisition has also been slower, su
 - On average, women show about a 9% higher churn intensity than men, which points to a meaningful difference in customer retention by gender
 
 <p align="center">
-<img width="700" height="486" alt="Income by City and State" src="https://github.com/user-attachments/assets/c2bcd6b4-df50-47cd-b329-f96ec8ff2c97" />
+
+
 </p>
 
-### Geographic Clustering:
-- A notable clustering pattern appears on the East Coast, where 9 of the 10 high-income states are concentrated; the remaining high-income state  is represented by Californiaon on the West Coast, creating a secondary but important opportunity cluster.
-- The analysis reveales that high-earning Cities are clusted within a small set of States,rather than being evenly distributed, wealth is concentrated in a few regions , highlighting priority zones for market entry
--  Clustered wealth reduces the need to spread resources across the whole country, because these attractive markets sit near each other
--  The access on these markets is extremely advantageous , as clustered cities often share logistics, media reach, and customer behavior patterns, which can make entry and scaling more efficient
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/46c25fb1-c263-4592-9f5d-67b97101c893" width="700" alt="general" />
-</p>
+### Churning and Joining rates by month :
+- The biggest acquisition of customers happens in the first half of the year and significantly tapers towards the end of the year, the same cicle can be observed in the leaving rate of the customers, most churning happens in the first 6 months of the year
+    - This indicates that the acquisition campaigns deployed are bringing in new customers
+    - But at the same time that onboarding of these new customers is not strong enough
+    - after interaction with our product and testing for compatibility with the customer needs , they decide to leave
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2dbdd32f-c54e-4dfa-8da5-90e6d629da5c" width="230" alt="100-150k" />
-  <img src="https://github.com/user-attachments/assets/e6b6e24e-e716-4bfd-97c8-e3c5da4a7c6f" width="230" alt="btw 150-200k" />
-  <img src="https://github.com/user-attachments/assets/653dd36b-2c58-4a9d-ae52-86116142f8f4" width="230" alt="over 200k" />
-</p>
+<img width="400" height="350" alt="Screenshot 2026-07-20 at 10 52 41" src="https://github.com/user-attachments/assets/4f540a53-d63f-4a2f-85ed-72a703c8b515" />
+<img width="400" height="350" alt="Screenshot 2026-07-20 at 10 52 32" src="https://github.com/user-attachments/assets/07e48210-fc0a-48bd-a94a-18e90fbe1401" />
 
+</p>
 ### Risk Considerations:
 
 - High-earning cities and states often show strong average income levels, but they also display higher income variability, indicating that wealth is less evenly distributed. In this dataset, only a very small number of members fall into the most stable affluent category, while the majority of high-income observations still exceed the variability threshold (set at 10.000), suggesting that many affluent markets may be less stable than their averages imply
