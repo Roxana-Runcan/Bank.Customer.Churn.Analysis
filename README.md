@@ -58,31 +58,33 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 ## Executive Summary
 
 
-The purpose of this analysis was to identify concentrations of buying power across the United States to guide market-entry strategy for a European company. The results show that the top 10 most affluent states should be the primary target, with nine located on the East Coast and one on the West Coast.
-
-At the city level, the strongest concentration of high-earning cities is found in only five states: Connecticut, New Jersey, Maryland, California, and Massachusetts. This pattern suggests that initial expansion efforts should focus on these states, as they combine strong household purchasing power with clustered high-income urban markets.
+Churn is highest in Germany, where customer acquisition has also been slower, suggesting there may be issues affecting both growth and retention in that market. Across genders, females show a higher churn rate than men, which may point to differences in customer needs or engagement. Churn is also notably higher among customers aged 40 to 60, indicating a possible problem in how this group interacts with the bank’s products or services.
 
 ## Deep Dive Analysis
 -----
 
-### Income Distribution:
-- The income distribution appears broadly centered in the middle-income range, with a gradual increase toward a peak around 50K–70K and a slow tapering toward higher incomes. Overall, the shape is close to a normal distribution, but with a slight right skew caused by a smaller number of high-income households
+### Customer distribution by geography :
+- From the start of market entry, France has been the leading geography, contributing nearly half of the customer base at 48.99%. Germany follows with 24.51%, while Spain is close behind at 24.00%, showing a fairly balanced split between the two smaller markets.
 <p align="center">
-<img width="500" height="500" alt="Screenshot 2026-07-02 at 17 33 55" src="https://github.com/user-attachments/assets/4428591d-0ae3-41ba-8029-5d07085f200f" />
+  <img width="600" height="500" alt="Screenshot 2026-07-19 at 16 36 36" src="https://github.com/user-attachments/assets/71a66584-d89d-4cbd-9905-0c84a4e5d4c4" />
 </p>
 
 
-### High Income States:
-- The top 10 states all exceed the national average of roughly 65k, making them the most relevant geographies for premium market targeting.
-- These states form the core market for the next stage of commercial prioritization.
 
-<p align="center">
-<img width="700" height="500" alt="Screenshot 2026-07-11 at 14 21 55" src="https://github.com/user-attachments/assets/0aa2391c-e858-44f0-b8ad-97f5af0137d2" />
- />
-</p>
+### Churn Rates by Geography:
+- France appears to have the highest number of churners at first glance, with 630 customers lost, however, this represents only 16.34% of its total customer base
+- Germany shows a more concerning picture, with a churn rate of 31.36% relative to its customer base, indicating much weaker retention in that market
+- Spain’s churn rate is 17.20%, making it closer to France in overall stability, although its acquisition rate has been the lowest of the three countries.
+  
+ <img width="975" height="149" alt="Screenshot 2026-07-19 at 16 44 38" src="https://github.com/user-attachments/assets/15f2d710-1365-4561-b7d6-7b56aad14c3e" />
 
-### City-level Concentration:
-- Within these 10 states, the strongest cities show average incomes starting at roughly 169k on the low end, this indicates that the opportunity is not evenly distributed across each state, but concentrated in select urban areas.
+
+
+
+### Churn Rates by Gender:
+- Across all three countries, men make up just over half of the customer base, at around 53%
+- However, females account for the highest share of churn in every market, suggesting a retention gap in this segment
+- On average, women show about a 9% higher churn intensity than men, which points to a meaningful difference in customer retention by gender
 
 <p align="center">
 <img width="700" height="486" alt="Income by City and State" src="https://github.com/user-attachments/assets/c2bcd6b4-df50-47cd-b329-f96ec8ff2c97" />
