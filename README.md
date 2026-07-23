@@ -2,13 +2,9 @@
 -----
 [![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 <a href="https://www.tableau.com/">
-  <img src="https://logo.svgcdn.com/logos/tableau.svg" alt="Tableau" width="100" />
-</a>
+https://img.icons8.com/?size=100&id=39858&format=png&color=01bad3 
 
 ## Project Background 
-
-
-  The banking industry is well-known for its competitive environment in which it operates. An industry that allows for so much flexibility for the customer to switch between financial services creates the perfect circumstances for this level of competition to exist. Therefore,for banks to remain relevant in today's market while balancing profitability and growth, one key factor becomes apparent: **customer retention**.
   
    **Aline Bank***  is a subdivision of Trust Financial Group, a much larger financial institution and is among its most recently launched businesses, having operations across three major countries in Europe: Germany, France and Spain, but looking to optimize its operations before expanding further into the European market.
 
@@ -25,7 +21,9 @@
 - [**Deep Dive Analysis**](#deep-dive-analysis)
      - [Geography](#geography)  
      - [Gender](#gender)  
-     - [Age](#age)  
+     - [Age](#age)
+     - [Product](#product)
+     - [Tenure](#tenure)   
      - [Customer Trends Over Time](#customer-trends-over-time)
  
 
@@ -57,9 +55,11 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 
 ## Executive Summary
 
-Overall growth in the bank has been declining, even though the first 2 quarters have been historically the strongest periods for aquiring new customers and the last 2 quarters the slowest, this pattern seems to be changing in 2025 as the second quarter shows a strong decline. It is important to note that the data available for this year only extends until June, and the second half of the year is not yet captured which could display a momentum-change by the completion of the year.
+Germany is the main driver of churn, with much higher loss rates than Spain and France, while France leads in both acquisition and retention. 
 
-Among the markets analyzed,Germany presents the biggest challenge, having a customer acquision rate relatively low , while churn rate is the highest out of the three countries. 
+Women and customers aged 40–59 are the most likely segments to churn, especially in Germany, while customers under 40 years old retain strongly. 
+
+The Basic plan dominates sales, but women show strong interest in upgrading to Plus and Premium, and churn patterns differ by tenure across countries.
 
 
 
@@ -95,7 +95,7 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
   
  ### Customer trends over time:
 - New customer acquisition is strongest in the first half of the year
-- Aquisition drops significantly in the second half of the year
+- Aquisition drops significantly in the second half of the year; the only exception to this rule is the year 2025, which started weaker than previous years
 - A similar pattern can be observed in churned customers count, which also changes over the course of the year
  
 
@@ -111,10 +111,15 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
 -----
 
 - Geography Insight: Germany is the most at-risk market
+  
 - Gender insight: Women churn more than men across all countries, and show the largest gap in Germany
+  
 - Age insight: churn rates peak among 50 to 59 year old members and retention is highest with under 30 customers
+  
 - Product Insight: women show a higher interest in Plus and Premium plans
+  
 - Tenure Insight: Germany struggles with retaining new customers , especially in the 1st year,while Spain and France show a different risk profile, which indicates that their highest churning rates come from customers with the longest tenure
+  
 - Trend over time Insight: both growth and churn are concentrated in the earlier part of the year , which suggest seasonality in customer behavior
   
   
@@ -122,19 +127,23 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
 
 ## Recommendations
 -----
-- Strengthen retention in Germany, since it has the highest churning rate and greatest influence on overall results.
-- Retention campaigns should be focused on female customers across all countries
-- Additionally, retention strategies should target first-year customers in Germany, onboarding experiences should be reevaluated and improved, while in Spain and France loyalty incentives should be deployed to preserve the customer base
-- The 40 to 59 age segment should be prioritized for both cutomer retention and product expansion, since it combines potential for higher value and high churn rate.
-- Build targeted upsell strategies for women who currently hold the basic product, since they show strongest interest in moving towards Plus and Premium.
-  
-  
 
-     
+- Strengthen customer loyalty in Germany, as it has the highest churn rate and the greatest influence on overall results
+
+- Retention campaigns should focus on female customers across all countries
+
+- Additionally, churn reducing strategies should target first year customers in Germany, where onboarding experiences should be re-evaluated and improved, while in Spain and France loyalty incentives should be deployed to preserve the already existing customer base
+
+- The 40–59 age segment should be prioritized for both customer retention and product expansion, as it combines high value with a high churn rate
+
+- Build targeted upsell strategies for women who currently hold the basic product, as they show the strongest interest in moving towards Plus and Premium
+  
 
 
 ## Caveats and assumptions
+---
+- The analysis has been conducted on 2.5 years of data. For the purpose of creating an actionable plan, the assumption was made that the year 2025 will follow similar trend patterns for the remaining months. However, this assumption will require additional validation at the end of the year, and the anticipated trends may need to be re-evaluated
 ----- 
--
+
 
 *represents a sample company
