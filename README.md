@@ -23,14 +23,13 @@
 - [**Executive summary**](#executive-summary)
 
 - [**Deep Dive Analysis**](#deep-dive-analysis)
-     - [Income Distribution](#income-distribution)  
-     - [High Income States](#high-income-states)  
-     - [City-level Concentration](#city-level-concentration)  
-     - [Geographic Clustering](#geographic-clustering)
-     - [Risk Considerations](#risk-considerations)  
+     - [Geography](#geography)  
+     - [Gender](#gender)  
+     - [Age](#age)  
+     - [Customer Trends Over Time](#customer-trends-over-time)
+ 
 
-
-- [**Market Analysis Insights**](#market-analysis-insights)
+- [**Bussiness Implications Analysis**](#bussiness-implications-analysis)
 
 - [**Recommendations**](#recommendations)
 
@@ -41,7 +40,7 @@
 
 
 
-An interactive Tableau dashboard can be downloaded [here]([https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)).
+An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)
 
 The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
@@ -57,7 +56,7 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 
 ## Executive Summary
 
-Overall growth in the bank has been declining, even though the first 2 quarters have been historically the strongest periods for aquiring new customers and the last 2 quarters the slowest, this pattern seems to be changing in 2025 as the second quarter shows a strong decline.It is important to note that the data available for this year only extends until June, and the second half of the year is not yet captured which could display a momentum-change by the completion of the year.
+Overall growth in the bank has been declining, even though the first 2 quarters have been historically the strongest periods for aquiring new customers and the last 2 quarters the slowest, this pattern seems to be changing in 2025 as the second quarter shows a strong decline. It is important to note that the data available for this year only extends until June, and the second half of the year is not yet captured which could display a momentum-change by the completion of the year.
 
 Among the markets analyzed,Germany presents the biggest challenge, having a customer acquision rate relatively low , while churn rate is the highest out of the three countries. 
 
@@ -65,72 +64,45 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
 ## Deep Dive Analysis
 -----
 
-### Customer behavior insight:
-- The highest churn is concentrated among female customers across all countries
-- The strongest retention groups are found in the 40 to 59 age groups, while at the same time  
+### Geography :
+- Germany has the highest churn rate overall 32.0 % ,leading with a 14.5 points difference in  front of Spain and 15.5 point difference from France in customer loss
+- France is the overall leader in new customer aquisition, and customer retention, achieving a 84.56% retention rate over time 
+
+
+### Gender :
+- Women represent the highest churning segment across all countries, having the highest rate in Germany;
+- Female churn is 36.7% in Germany, compared to 22.3% in Spain and 20.6% in France
+- Among men, churn starts at 28% in Germany and declines significantly in the remaining countries, staying below 14% in Spain and France
+
+
+ ### Age :
+- The highest churn is observed among members aged 50-59 and 40-49 ,whith churn rates at 56% 31% , respectively
+- Retention is strongest among members under 30, with 92.58% remaining with the company after joining, followed closely by the 30-39 age group with a retention rate of 90.26%
+
 <p align="center">
   <img width="600" height="500" alt="Screenshot 2026-07-19 at 16 36 36" src="https://github.com/user-attachments/assets/71a66584-d89d-4cbd-9905-0c84a4e5d4c4" />
 </p>
 
-
-
-### Churn Rates by Geography:
-- France appears to have the highest number of churners at first glance, with 630 customers lost, however, this represents only 16.34% of its total customer base
-- Germany shows a more concerning picture, with a churn rate of 31.36% relative to its customer base, indicating much weaker retention in that market
-- Spain’s churn rate is 17.20%, making it closer to France in overall stability, although its acquisition rate has been the lowest of the three countries.
-  
- <img width="975" height="149" alt="Screenshot 2026-07-19 at 16 44 38" src="https://github.com/user-attachments/assets/15f2d710-1365-4561-b7d6-7b56aad14c3e" />
-
-
-
-
-### Churn Rates by Gender:
-- Across all three countries, men make up just over half of the customer base, at around 53%
-- However, females account for the highest share of churn in every market, suggesting a retention gap in this segment
-- On average, women show about a 9% higher churn intensity than men, which points to a meaningful difference in customer retention by gender
-
-<p align="center">
-
-
-</p>
-
-### Churning and Joining rates by month :
-- The biggest acquisition of customers happens in the first half of the year and significantly tapers towards the end of the year, the same cicle can be observed in the leaving rate of the customers, most churning happens in the first 6 months of the year
-    - This indicates that the acquisition campaigns deployed are bringing in new customers
-    - But at the same time that onboarding of these new customers is not strong enough
-    - after interaction with our product and testing for compatibility with the customer needs , they decide to leave
+ ### Customer trends over time:
+- New customer acquisition is strongest in the first half of the year
+- Aquisition drops significantly in the second half of the year
+- A similar pattern can be observed in churned customers count, which also changes over the course of the year
+ 
 
 <p align="center">
 <img width="400" height="350" alt="Screenshot 2026-07-20 at 10 52 41" src="https://github.com/user-attachments/assets/4f540a53-d63f-4a2f-85ed-72a703c8b515" />
 <img width="400" height="350" alt="Screenshot 2026-07-20 at 10 52 32" src="https://github.com/user-attachments/assets/07e48210-fc0a-48bd-a94a-18e90fbe1401" />
 
 </p>
-### Risk Considerations:
 
-- High-earning cities and states often show strong average income levels, but they also display higher income variability, indicating that wealth is less evenly distributed. In this dataset, only a very small number of members fall into the most stable affluent category, while the majority of high-income observations still exceed the variability threshold (set at 10.000), suggesting that many affluent markets may be less stable than their averages imply
-
-<p align="center">
-  <img width="716" height="680" alt="Wealth vs Variability" src="https://github.com/user-attachments/assets/40fd7181-8b73-4b3a-b56a-9e0539190e43" />
-</p>
-
-  <img width="28" height="27" alt="image" src="https://github.com/user-attachments/assets/7e20d45a-eb2a-4742-9a6e-a3181f8f0003" /> The light gray cluster represents lower-income but more stable markets.
   
-
-  <img width="27" height="26" alt="image" src="https://github.com/user-attachments/assets/1da73ab4-51a1-4704-b305-fd9e78f1cd8f" /> The darker gray cluster represents all members under the 100k household income within a state or city, with uneven variability.
-
-  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/379b8e53-5159-48f2-9982-fbebd3649ffe" /> The light pink cluster represents affluent but uneven markets, where income is high but standard deviation is also high.
-  
-  <img width="27" height="27" alt="image" src="https://github.com/user-attachments/assets/42cfcdde-296e-4e28-829b-8b9a6409341c" /> The fact that only a very small number of points sit in the “high income, low deviation” zone suggests that truly stable affluence is rare.
-
-
-## Market Analysis Insights
+### Business Implications Analysis:
 -----
 
-  - Key finding : East Coast dominates high-income states, closely followed by the West Coast
-  - Primary recommendation: Focus on the highest-income states and affluent suburban cities
-  - Expansion model: should includ a pilot phase in the top East Coast markets, followed by expansion in additional high-income states once demand is validated
-  - Complex markets with potential hidden costs which have been excluded from analysis: Alaska, Hawaii
-  - Low-income states: are predominantly concentrated in the South and display a low purchasing power
+- Geography Insight: Germany is the most at-risk market
+- Gender insight: Women churn more than men across all countries, and show the largest gap in Germany
+- Age insight: churn rates peak among 50 to 59 year old members and retention is highest with under 30 customers
+- Trend over time Insight: both growth and churn are concentrated in the earlier part of the year , which suggest seasonality in customer behavior 
 
 ## Recommendations
 -----
@@ -149,4 +121,4 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
    High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results.
    The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
 
-*represent a sample company
+*represents a sample company
