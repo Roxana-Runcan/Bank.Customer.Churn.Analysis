@@ -54,11 +54,13 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 <img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
 
 
+
 ## Executive Summary
 
 Overall growth in the bank has been declining, even though the first 2 quarters have been historically the strongest periods for aquiring new customers and the last 2 quarters the slowest, this pattern seems to be changing in 2025 as the second quarter shows a strong decline. It is important to note that the data available for this year only extends until June, and the second half of the year is not yet captured which could display a momentum-change by the completion of the year.
 
 Among the markets analyzed,Germany presents the biggest challenge, having a customer acquision rate relatively low , while churn rate is the highest out of the three countries. 
+
 
 
 ## Deep Dive Analysis
@@ -83,6 +85,14 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
   <img width="600" height="500" alt="Screenshot 2026-07-19 at 16 36 36" src="https://github.com/user-attachments/assets/71a66584-d89d-4cbd-9905-0c84a4e5d4c4" />
 </p>
 
+ ### Product :
+- The Basic plan remains the bank's best-selling product followed by Plus and Premium
+- A noticable gap in customer preference towards higer-tier products can be observed in the women segment, who are more likely to move towards Plus or Premium plans relative to the group size
+
+ ### Tenure :
+- Highest churning rate in the first year of tenure remains in Germany, at 33% and decreases gradually as tenure increases, reaching 30.2% by the third year
+- Spain and France show a different pattern; in both countries the highest churn is observed in the customers who have stayed with the company the longest, reaching 18.5% in Spain and 17.1% in France
+  
  ### Customer trends over time:
 - New customer acquisition is strongest in the first half of the year
 - Aquisition drops significantly in the second half of the year
@@ -95,6 +105,7 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
 
 </p>
 
+
   
 ### Business Implications Analysis:
 -----
@@ -102,23 +113,28 @@ Among the markets analyzed,Germany presents the biggest challenge, having a cust
 - Geography Insight: Germany is the most at-risk market
 - Gender insight: Women churn more than men across all countries, and show the largest gap in Germany
 - Age insight: churn rates peak among 50 to 59 year old members and retention is highest with under 30 customers
-- Trend over time Insight: both growth and churn are concentrated in the earlier part of the year , which suggest seasonality in customer behavior 
+- Product Insight: women show a higher interest in Plus and Premium plans
+- Tenure Insight: Germany struggles with retaining new customers , especially in the 1st year,while Spain and France show a different risk profile, which indicates that their highest churning rates come from customers with the longest tenure
+- Trend over time Insight: both growth and churn are concentrated in the earlier part of the year , which suggest seasonality in customer behavior
+  
+  
+
 
 ## Recommendations
 -----
+- Strengthen retention in Germany, since it has the highest churning rate and greatest influence on overall results.
+- Retention campaigns should be focused on female customers across all countries
+- Additionally, retention strategies should target first-year customers in Germany, onboarding experiences should be reevaluated and improved, while in Spain and France loyalty incentives should be deployed to preserve the customer base
+- The 40 to 59 age segment should be prioritized for both cutomer retention and product expansion, since it combines potential for higher value and high churn rate.
+- Build targeted upsell strategies for women who currently hold the basic product, since they show strongest interest in moving towards Plus and Premium.
+  
+  
 
-   Based on the analysis, Aurora Luxury Atelier should prioritize a phased US expansion strategy centered on affluent East Coast markets.
-   The strongest commercial potential is concentrated in high-income states such as the District of Maryland, New Jersey, Connecticut, District of Columbia and Massachusetts, with additional opportunity in select high-income suburban cities. This should reduce operational complexity and improve access to high-value customer segments.
-   Given the elevated logistics and infrastructure costs associated with Alaska and Hawaii these markets should be deferred until a later expansion phase.
-   In the short term, the brand should focus on premium, high-income regions where purchasing power is strongest and customer acquisition efficiency is most likely to be highest.
      
 
 
 ## Caveats and assumptions
 ----- 
-- Alaska and Hawaii were excluded to improve distribution efficiency and keep the analysis focused on contiguous market logistics.That said, Alaska may warrant separate review later, as higher logistics costs and geographic isolation could influence both feasibility and observed income levels.
-- The income figures should be interpreted as directional market signals rather than a guarantee of demand or conversion.
-   High income improves targeting potential, but product-market fit, pricing, competition, and local execution will still drive results.
-   The exclusion of Alaska and Hawaii is practical for rollout planning, but it limits the completeness of the national picture.
+-
 
 *represents a sample company
