@@ -1,8 +1,8 @@
 # Customer Retention Analysis on Bank Records
 -----
 [![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
-<a href="https://www.tableau.com/">
-https://img.icons8.com/?size=100&id=39858&format=png&color=01bad3 
+[![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)](https://www.tableau.com/)
+
 
 ## Project Background 
   
@@ -11,6 +11,7 @@ https://img.icons8.com/?size=100&id=39858&format=png&color=01bad3
   Having built a solid customer portfolio across these countries through its digital banking services, regional expertise, and customer-focused offerings, the bank is now focused on strengthening retention and improving long-term customer value.
 
   The next priority is to understand which customer segments are most likely to leave and which behavioral patterns may signal churn, so the bank can design more targeted retention strategies across these markets.
+
 
 
 
@@ -40,14 +41,14 @@ https://img.icons8.com/?size=100&id=39858&format=png&color=01bad3
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)
 
-The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
+The SQL queries utilized to cleand, standardize and conduct the exploratory analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
 The files with the unprocessed data can be found [here]( https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/tree/main/data/raw).
 
 ## Data Structure and Initial Checks:
 -----
 
-The US Income Database Structure, as seen below, contains two main Tables : US Household Income and US Household Income Statistics with a total row count of 65,059.
+The Bank Database Structure, as seen below, contains two main Tables : bank_data and bank_supplement, with a total row count of 165.053 rows.
 
 <img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
 
