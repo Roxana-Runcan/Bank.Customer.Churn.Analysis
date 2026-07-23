@@ -41,7 +41,7 @@
 
 
 
-An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1).
+An interactive Tableau dashboard can be downloaded [here]([https://public.tableau.com/app/profile/roxana.runcan/viz/DistributionOfBuyingPoweracrosstheU_S/Dashboard1](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)).
 
 The SQL queries utilized to cleand, standardize and conduct initial analysis of the dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
 
@@ -57,14 +57,17 @@ The US Income Database Structure, as seen below, contains two main Tables : US H
 
 ## Executive Summary
 
+Overall growth in the bank has been declining, even though the first 2 quarters have been historically the strongest periods for aquiring new customers and the last 2 quarters the slowest, this pattern seems to be changing in 2025 as the second quarter shows a strong decline.It is important to note that the data available for this year only extends until June, and the second half of the year is not yet captured which could display a momentum-change by the completion of the year.
 
-Churn is highest in Germany, where customer acquisition has also been slower, suggesting there may be issues affecting both growth and retention in that market. Across genders, females show a higher churn rate than men, which may point to differences in customer needs or engagement. Churn is also notably higher among customers aged 40 to 60, indicating a possible problem in how this group interacts with the bank’s products or services.
+Among the markets analyzed,Germany presents the biggest challenge, having a customer acquision rate relatively low , while churn rate is the highest out of the three countries. 
+
 
 ## Deep Dive Analysis
 -----
 
-### Customer distribution by geography :
-- From the start of market entry, France has been the leading geography, contributing nearly half of the customer base at 48.99%. Germany follows with 24.51%, while Spain is close behind at 24.00%, showing a fairly balanced split between the two smaller markets.
+### Customer behavior insight:
+- The highest churn is concentrated among female customers across all countries
+- The strongest retention groups are found in the 40 to 59 age groups, while at the same time  
 <p align="center">
   <img width="600" height="500" alt="Screenshot 2026-07-19 at 16 36 36" src="https://github.com/user-attachments/assets/71a66584-d89d-4cbd-9905-0c84a4e5d4c4" />
 </p>
