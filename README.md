@@ -41,18 +41,18 @@
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)
 
-The SQL queries utilized to clean, standardize and conduct the exploratory analysis of the available dataset can be found [here](https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/blob/main/Cleaned_data_initial_EDA.sql).
+The SQL queries utilized to clean, standardize and conduct the exploratory analysis of the available dataset can be found [here](https://github.com/Roxana-Runcan/Customer-churn-analysis/blob/main/data_files/processed_data/bank_data_project.sql).
 
-The files with the unprocessed data can be found [here]( https://github.com/runcanroxana-droid/Sales-Potential-on-US-Market/tree/main/data/raw).
+The files with the unprocessed data can be found [here](https://github.com/Roxana-Runcan/Customer-churn-analysis/tree/main/data_files/raw_data).
 
 ## Data Structure and Initial Checks:
 -----
 
-The Bank Database Structure, as seen below, contains two main Tables : bank_data and bank_supplement, with a total row count of 165.053 .
+The Bank Database Structure, as seen below, contains two main Tables: bank_data and bank_supplement, with a total row count of **165,053** .
+<p align="center">
+<img width="756" height="559" alt="Screenshot 2026-07-24 at 15 21 21" src="https://github.com/user-attachments/assets/b1743163-5377-451d-8c19-a744ed630f50" />
 
-<img width="751" height="675" alt="Screenshot 2026-06-01 at 16 59 28" src="https://github.com/user-attachments/assets/2c34b6f5-789b-4d7e-b87c-fec3ef4becc5" />
-
-
+</p>
 
 ## Executive Summary
 
