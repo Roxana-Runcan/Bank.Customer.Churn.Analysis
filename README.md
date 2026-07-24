@@ -17,13 +17,13 @@
 
 ## Insights and recommendations are provided on the key areas:
 -----
-- [**Executive Summary**](#Executive-Summary)
+- [**Executive Summary**](#xecutive-summary)
 
 - [**Detailed Analysis**](#deep-dive-analysis)
      - [Geography](#geography)  
-     - [Gender](#gender)  
-     - [Age](#age)
-     - [Product](#product)
+     - [Gender](#gender )
+     - [Age](#age ) 
+     - [Product](#product )
      - [Tenure](#tenure)   
      - [Customer Trends Over Time](#customer-trends-over-time)
  
@@ -68,7 +68,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
 ## Detailed Analysis
 -----
 
-### Geography :
+### Geography:
 - France is the leading source of new customers across all three countries, accounting for 50.25% of our customer base,  followed by Germany at 25.14% and lastly, Spain at 24.62%  
 - Germany has the highest churn rate overall ~32.0 % ,leading with a 14.5 percentage points difference in front of Spain and 15.5 percentage points difference from France in customer loss
 - France is the overall leader in new customer acquisition, and customer retention, achieving a 84.56% retention rate over time 
