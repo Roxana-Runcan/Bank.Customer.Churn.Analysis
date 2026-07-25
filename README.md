@@ -47,7 +47,7 @@ The SQL queries with additional comments with steps related to the workflow, cle
 
 The files with the unprocessed data can be found [here](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/tree/main/Raw%20Data%20Files).
 
-Source: the original files used for analysis, can be found [here](https://www.kaggle.com/datasets/muhammadhamzamaher/bank-data/data), and additional comments on the source of the data, have been provided in the [Caveats and Assumptions](caveats-and-assumptions) section of the project.
+Source: the original files used for analysis, can be found [here](https://www.kaggle.com/datasets/muhammadhamzamaher/bank-data/data), and additional comments on the source of the data, have been provided in the [Caveats and Assumptions](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/blob/main/README.md#caveats-and-assumptions) section of the project.
 
 
 ## Data Structure and Initial Checks:
