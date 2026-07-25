@@ -11,7 +11,7 @@
   Having built a solid customer portfolio across these countries through its digital banking services, regional expertise, and customer-focused offerings, the bank is now focused on strengthening retention and improving long-term customer value.
 
   The next priority is to understand which customer segments are most likely to leave and which behavioral patterns may signal churn, so the bank can design more targeted retention strategies across these markets.
-
+-----
 
 
 
@@ -23,7 +23,7 @@
      - [Geography](#geography)  
      - [Gender](#gender )
      - [Age](#age ) 
-     - [Product](#product )
+     - [Product](#product)
      - [Tenure](#tenure)   
      - [Customer Trends Over Time](#customer-trends-over-time)
  
@@ -41,10 +41,11 @@
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)
 
-The SQL queries utilized to clean, standardize and conduct the exploratory analysis of the available dataset can be found [here](https://github.com/Roxana-Runcan/Customer-churn-analysis/blob/main/data_files/processed_data/bank_data_project.sql).
+The SQL queries with additional comments with steps related to the workflow, cleaning, standardizing, and the exploratory analysis conducted on the available dataset can be found [here](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/tree/main/Raw%20Data%20Files).
 
 The files with the unprocessed data can be found [here](https://github.com/Roxana-Runcan/Customer-churn-analysis/tree/main/data_files/raw_data).
 
+The original file [source.](https://www.kaggle.com/datasets/muhammadhamzamaher/bank-data/data), additional comments on the source of the data, have been provided in the [caveats and assumptions](caveats-and-assumptions) section of the project.
 ## Data Structure and Initial Checks:
 -----
 
