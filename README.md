@@ -19,14 +19,14 @@
 
 ## Insights and recommendations are provided on the key areas:
 -----
-- [**Executive Summary**](#xecutive-summary)
+- [**Executive Summary**](#excutive-summary)
 
-- [**Detailed Analysis**](#deep-dive-analysis)
-     - [Geography](#geography)  
-     - [Gender](#gender )
-     - [Age](#age ) 
-     - [Product](#product)
-     - [Tenure](#tenure)   
+- [**Detailed Analysis**](#detailed-analysis)
+     - [Geography Segment](#geography-segment)  
+     - [Gender Segment](#gender-segment)
+     - [Age segment](#age-segment) 
+     - [Product segment](#product-segment)
+     - [Tenure segment](#tenure-segment)   
      - [Customer Trends Over Time](#customer-trends-over-time)
  
 
@@ -47,7 +47,7 @@ The SQL queries with additional comments with steps related to the workflow, cle
 
 The files with the unprocessed data can be found [here](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/tree/main/Raw%20Data%20Files).
 
-Source: The original files used for analysis,can be found [here](https://www.kaggle.com/datasets/muhammadhamzamaher/bank-data/data), additional comments on the source of the data, have been provided in the [Caveats and Assumptions](caveats-and-assumptions) section of the project.
+Source: the original files used for analysis, can be found [here](https://www.kaggle.com/datasets/muhammadhamzamaher/bank-data/data), and additional comments on the source of the data, have been provided in the [Caveats and Assumptions](caveats-and-assumptions) section of the project.
 
 
 ## Data Structure and Initial Checks:
@@ -73,7 +73,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
 ## Detailed Analysis
 -----
 
-### Geography:
+### Geography Segment:
 - France is the leading source of new customers across all three countries, accounting for 50.25% of our customer base,  followed by Germany at 25.14% and lastly, Spain at 24.62%  
 - Germany has the highest churn rate overall ~32.0 % ,leading with a 14.5 percentage points difference in front of Spain and 15.5 percentage points difference from France in customer loss
 - France is the overall leader in new customer acquisition, and customer retention, achieving a 84.56% retention rate over time 
@@ -86,7 +86,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
 
 
 
-### Gender :
+### Gender Segment:
 - Women represent the highest churning segment across all countries, having the highest rate in Germany,relative to the total customer base
 - Female churn is 36.7% in Germany, compared to 22.3% in Spain and 20.6% in France
 - Among men, churn starts at 28% in Germany and declines significantly in the remaining countries, staying below 14% in Spain and France
@@ -95,7 +95,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
 </p>
 
 
- ### Age :
+ ### Age Segment:
 - The highest churn is observed among members aged 50-59 and 40-49 ,whith churn rates at 56.74%  and 30.97% , respectively
 - At the country-level, Germany can be observed again as the leading source of churning members in the 50-59, 40-49 and +60 age groups
 - Retention is strongest among members under 30, with 92.58% remaining with the company after joining, followed closely by the 30-39 age group with a retention rate of 90.26%
@@ -107,7 +107,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
 
 </p>
 
- ### Product :
+ ### Product Segment:
 - The Basic plan remains the bank's best-selling product followed by Plus and Premium
 - A noticeable gap in customer preference towards higher-tier products can be observed in the women segment, who are more likely to move towards Plus or Premium plans relative to the group size; the years 2023 and 2025 are especially indicative of women's preference towards these products, exception to this preference being only overtuned by men in the year of 2024 when men showed slightly higher interest in the same products
 <div align="center">
@@ -126,7 +126,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
 </div>
 
 
- ### Tenure :
+ ### Tenure Segment:
 - Highest churning rate in the first year of tenure remains in Germany, at 33% and decreases gradually as tenure increases, reaching 30.2% by the third year
 - Spain and France show a different pattern; in both countries the highest churn is observed in the customers who have stayed with the company the longest, reaching 18.5% in Spain and 17.1% in France
 
@@ -166,7 +166,7 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
   
 
 
-## Recommendations
+## Recommendations:
 -----
 
 - Strengthen customer loyalty in Germany, as it has the highest churn rate and the greatest influence on overall results
@@ -181,10 +181,9 @@ The Basic plan dominates sales, but women show strong interest in upgrading to P
   
 
 
-## Caveats and Assumptions
+## Caveats and Assumptions:
 ---
 - The analysis has been conducted on 2.5 years of data. For the purpose of creating an actionable plan, it was assumed that the year 2025 will follow similar trend patterns for the remaining months. However, this assumption will require additional validation at the end of the year, and the anticipated trends may need to be re-evaluated
+- The original dataset used for analysis was sourced from [Kaggle](https://www.kaggle.com/datasets/muhammadhamzamaher/bank-data/data),and to better reflect a realistic working environment, the data was processed further with AI to increase its complexibity and imperfections and an additional table with synthetic data was generated.
+- 'Aline Bank' represents a fictional bank used sample entity. 
 ----- 
-
-
-*represents a sample company
