@@ -19,7 +19,7 @@
 
 ## Insights and recommendations are provided on the key areas:
 -----
-- [**Executive Summary**](#excutive-summary)
+- [**Executive Summary**](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis#executive-summary)
 
 - [**Detailed Analysis**](#detailed-analysis)
      - [Geography Segment](#geography-segment)  
@@ -30,7 +30,7 @@
      - [Customer Trends Over Time](#customer-trends-over-time)
  
 
-- [**Business Implications Analysis**](#bussiness-implications-analysis)
+- [**Business Implications Analysis**](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis#business-implications-analysis)
 
 - [**Recommendations**](#recommendations)
 
@@ -43,7 +43,7 @@
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/roxana.runcan/viz/BankDataChurnRate/Dashboard2)
 
-The SQL queries with additional comments with steps related to the workflow, cleaning, standardizing, and the exploratory analysis conducted on the available dataset can be found [here](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/tree/main/Raw%20Data%20Files).
+The SQL queries with additional comments with steps related to the workflow, cleaning, standardizing, and the exploratory analysis conducted on the available dataset can be found [here](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/blob/main/SQL%20Scripts/bank_data_cleaning_EDA.sql).
 
 The files with the unprocessed data can be found [here](https://github.com/Roxana-Runcan/Bank.Customer.Churn.Analysis/tree/main/Raw%20Data%20Files).
 
